@@ -1,9 +1,15 @@
 {
-  "name": "InnovativeConsoleTodoList",
+  "name": "innovative-console-todo-list",
   "version": "1.0.0",
   "main": "index.js",
   "author": "Iskander Karimov <41307855+pronix575@users.noreply.github.com>",
   "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "start": "node ./build/index.js",
+    "start:b": "yarn build && yarn start"
+  },
   "dependencies": {
     "@pronix/flux": "^1.0.10",
     "@pronix/hyper-flow": "^1.2.5"
