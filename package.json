@@ -1,0 +1,11 @@
+{
+  "name": "InnovativeConsoleTodoList",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Iskander Karimov <41307855+pronix575@users.noreply.github.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@pronix/flux": "^1.0.10",
+    "@pronix/hyper-flow": "^1.2.5"
+  }
+}
