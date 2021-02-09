@@ -12,10 +12,10 @@
     clone "^2.1.2"
     deep-diff "^1.0.2"
 
-"@pronix/hyper-flow@^1.2.5":
-  version "1.2.5"
-  resolved "https://registry.yarnpkg.com/@pronix/hyper-flow/-/hyper-flow-1.2.5.tgz#8a3387db079679ac910d419e942b60cc0d2f7fea"
-  integrity sha512-WXQJS/FO03kCVy0ZnMVsDmT9chFy0mhQH7662EBdXUiVFjKjuU3QZUeGA6yjmKRLruaFQGk7e8krAFMXeexiCw==
+"@pronix/hyper-flow@^1.2.8":
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/@pronix/hyper-flow/-/hyper-flow-1.5.0.tgz#4e6e49730074a1b28356b195cb616a90f71fcf4f"
+  integrity sha512-9Io2NzD8Yh+SpF1n3bQE/8AdnrZrp070Lrw0N1TxQvdhU2fzozmFSBkXix427NomeYtxDHraqmUvWBpFBJnggA==
   dependencies:
     "@types/node" "^14.0.13"
     "@types/readline-sync" "^1.4.3"

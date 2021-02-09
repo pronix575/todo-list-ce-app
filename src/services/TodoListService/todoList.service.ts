@@ -2,7 +2,7 @@ import Flux from "@pronix/flux"
 import { todoFactory } from "./utils/todoFactory"
 import { CreateTodoProps, OperateStatus, Store, Todos } from "./types"
 
-class TodoListService extends Flux<Store> {
+export class TodoListService extends Flux<Store> {
 	constructor() {
 		super({ todos: [] })
 	}
@@ -48,7 +48,7 @@ class TodoListService extends Flux<Store> {
 	}
 }
 
-export type TodoList = typeof TodoListService
+export const TodoList = TodoListService
 
 export function todoListFactory(): TodoListService {
 	return new TodoListService()

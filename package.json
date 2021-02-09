@@ -12,6 +12,6 @@
   },
   "dependencies": {
     "@pronix/flux": "^1.0.10",
-    "@pronix/hyper-flow": "^1.2.5"
+    "@pronix/hyper-flow": "^1.2.8"
   }
 }

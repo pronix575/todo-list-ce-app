@@ -1,6 +1,3 @@
-import { todoListFactory } from "../services/TodoListService/todoList.service"
-import { Hyper, HyperContext } from "@pronix/hyper-flow"
+import { TodoApp } from "../services"
 
-const todoList = todoListFactory()
-const app = new Hyper()
-
+new TodoApp().start()
