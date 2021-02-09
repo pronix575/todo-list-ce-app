@@ -48,6 +48,8 @@ class TodoListService extends Flux<Store> {
 	}
 }
 
+export type TodoList = typeof TodoListService
+
 export function todoListFactory(): TodoListService {
 	return new TodoListService()
 }
